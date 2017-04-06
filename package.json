@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1.0",
+  "description": "It is the classic tic tac toe created in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Th3Cod3/Tic-Tac-Toe.git"
+  },
+  "keywords": [
+    "Tic",
+    "Tac",
+    "Toe",
+    "Javascript",
+    "Fundamentos",
+    "Platzi"
+  ],
+  "author": "Yefri Gonzalez <th3-cod3-1230@hotmail.com> (Th3Cod3)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Th3Cod3/Tic-Tac-Toe/issues"
+  },
+  "homepage": "https://github.com/Th3Cod3/Tic-Tac-Toe#readme"
+}
