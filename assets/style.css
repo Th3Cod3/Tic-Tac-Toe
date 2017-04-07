@@ -3,3 +3,49 @@ body{
 	background-color: #999;
 	color: #fff;
 }
+
+.square{
+	width: 60vh;
+	height: 60vh;
+	margin: 10vh auto;
+}
+
+.cell{
+	border: solid 1px #000;
+	width: 20vh;
+	height: 20vh;
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	border: solid 1px #000;
+	width: 60vh;
+	height: 20vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.cell .x{
+	display: none;
+	font-size: 20vh;
+    text-align: center;
+    line-height: 20vh;
+}
+
+.cell .circule{
+	display: none;
+	font-size: 20vh;
+    text-align: center;
+    line-height: 20vh;
+}
+
+.cell.circule .circule{
+	display: block;
+}
+
+.cell.x .x{
+	display: block;
+}
